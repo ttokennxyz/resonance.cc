@@ -1,0 +1,8 @@
+getgenv().VisualsTabCreated = false
+getgenv().window = nil
+
+loadstring(game:HttpGet('https://luauth.com/api/scripts/project_d550e6e6dbd2afed/loader', true))(); -- main script, sets UILoaded to true and yields until VisualsTabCreated is true
+
+repeat task.wait() until getgenv().window ~= nil
+
+loadstring(game:HttpGet('github'))(); -- ESP script, sets VisualsTabCreated to true
