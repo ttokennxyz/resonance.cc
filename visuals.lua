@@ -1,5 +1,6 @@
+print("Visuals loading!")
 repeat task.wait() until getgenv().window
-print("Visuals now loading!")
+print("Visuals loaded!")
 
 local runservice = game:GetService("RunService")
 local camera = game.Workspace.Camera
