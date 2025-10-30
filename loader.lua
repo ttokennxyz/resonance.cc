@@ -1,6 +1,7 @@
 getgenv().VisualsTabCreated = false
 
 task.spawn(function()
+    print("does ts work now?")
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ttokennxyz/resonance.cc/refs/heads/main/visuals.lua'))(); -- ESP script, sets VisualsTabCreated to true
 end)
 
