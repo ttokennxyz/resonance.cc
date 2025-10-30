@@ -5,4 +5,4 @@ loadstring(game:HttpGet('https://luauth.com/api/scripts/project_d550e6e6dbd2afed
 
 repeat task.wait() until getgenv().window ~= nil
 
-loadstring(game:HttpGet('github'))(); -- ESP script, sets VisualsTabCreated to true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ttokennxyz/resonance.cc/refs/heads/main/visuals.lua'))(); -- ESP script, sets VisualsTabCreated to true
